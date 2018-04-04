@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNGLearning" parallel="classes" thread-count="3">
+    <test name="simpleTest">
+        <classes>
+            <class name="TestVergant.SignINTest"/>
+            <class name="TestVergant.HotelBookinGTest"/>
+            <class name="TestVergant.FlightBookinGTest"/>
+        </classes>
+    </test>
+</suite>
